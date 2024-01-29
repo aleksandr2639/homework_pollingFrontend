@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+:root {
+  font-family: "Manrope", "Arial", sans-serif;
+  font-size: 18px;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+}
+
+.hidden {
+  display: none;
+}
+
+.list-quantity {
+  padding: 20px 0;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 20px;
+  padding: 20px 40px;
+  background: #8cb9ab;
+  border-radius: 10px;
+}
+
+.list-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background: white;
+  word-break: break-word;
+  padding: 10px 50px 10px 5px;
+}
+
+.name {
+  width: 30%;
+}
+
+.message {
+  width: 40%;
+}
